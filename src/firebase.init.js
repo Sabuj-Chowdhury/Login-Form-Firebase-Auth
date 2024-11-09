@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
+// NOT IDEAL to SHARE API in public
 const firebaseConfig = {
   apiKey: "AIzaSyDdSuTf9s_OQBpfQ3UqWsIQ9o2PYjl43SM",
   authDomain: "email-password-auth-e887c.firebaseapp.com",
